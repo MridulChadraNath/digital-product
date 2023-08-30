@@ -41,6 +41,10 @@
     color: white;
 }
 
+.banner-photo{
+   
+}
+
 .title{
     font-size: 55px;
     font-weight: bold;
@@ -51,6 +55,18 @@
     margin-top: 15px;
     margin-bottom: 15px;
 
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.about-title{
+        text-align: center;
+        padding-top: 20px       ;
 }
 
 .btn{
