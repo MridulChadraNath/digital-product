@@ -41,9 +41,7 @@
     color: white;
 }
 
-.banner-photo{
-   
-}
+
 
 .title{
     font-size: 55px;
@@ -62,11 +60,18 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+   
 }
 
 .about-title{
         text-align: center;
-        padding-top: 20px       ;
+        padding-top: 10px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+   
 }
 
 .btn{
@@ -82,4 +87,32 @@
 
 .banner-img{
     width: 300px;
+}
+
+/* Our service section */
+
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    color: white;
+    background-color: #000;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.icon{
+    width: 70px;
+    margin-top: 10px;
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.box-info{
+    margin-top: 10px;
+    padding: 10px;
 }
